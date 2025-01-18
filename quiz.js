@@ -3,10 +3,10 @@ function checkAnswer() {
  let userAnswer = document.querySelector('input[name="quiz"]:checked').value;
  
     if (userAnswer === correctAnswer) {
-        document.getElementById('feedback').textContent="Correct! Well done.";
+        document.getElementById("feedback").textContent="Correct! Well done.";
         
     } else {
-        document.getElementById('feedback').textContent="That's incorrect. Try again!";
+        document.getElementById("feedback").textContent="That's incorrect. Try again!";
 
 
         
@@ -14,5 +14,6 @@ function checkAnswer() {
    
     
  }
- document.getElementById('submit-answer').addEventListener('click', checkAnswer);
+ document.getElementById("submit-answer").addEventListener("click", checkAnswer);
+ 
 
